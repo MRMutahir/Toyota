@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.CONTAINER {
+    height: 100vh;
+    width: 100vw;
+}
+
+.collapse {
+    margin-left: 50vw;
+}
+
+.navbar-brand img {
+    height: 80px;
+    width: 80px;
+
+}
+
+.flex1 {
+    display: flex !important;
+    flex-direction: row;
+
+}
+
+/* blockA */
+.blockA {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./img/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.text {
+    padding-top: 30%;
+    padding-left: 80px;
+    margin-top: 20px;
+}
+
+.text h1 {
+    font-size: 40px;
+    font-weight: 1000;
+    color: black;
+    margin-top: 20px;
+}
+
+.text p {
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: red;
+    border: none;
+}
+
+/* blockB */
+.blockB {
+    width: 100vw;
+    /* text-align: center; */
+    background-color: rgb(222, 218, 218);
+    padding: 10px 10px;
+
+
+}
+
+.blockB a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+
+.blockB a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.blockB h1 {
+
+    font-size: 20px;
+    padding: 10px 200px;
+
+}
+
+/* blockC */
+.blockC {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.blockCitem2 {
+    width: 50%;
+    padding: 100px;
+}
+
+.blockCitem2 h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.blockCitem2 h1:hover {
+    color: red;
+}
+
+.blockCitem2 p {
+    font-weight: 100;
+}
+
+.blockCitem2 p:hover {
+    color: red;
+}
+
+.blockCitem1 {
+    width: 50%;
+}
+
+/* blockD */
+.blockD {
+    background-image: url(./img/pic7.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+.text-2 {}
+
+.text-2 {
+    padding-top: 33%;
+    padding-left: 80px;
+    margin-top: 10px;
+}
+
+.text-3 h1 {
+    font-size: 40px;
+    font-weight: 1000;
+    color: white;
+    margin-top: 10px;
+}
+
+.text-3 {
+    padding-top: 33%;
+    padding-left: 80px;
+    /* margin-top: 10px; */
+}
+
+.text-3 p {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: red;
+    border: none;
+}
+
+.blockE {
+    background-image: url(./img/pic8.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+.blockE:hover {
+    /* background: #000;
+    background-image:url(./img/pic8.webp) ; */
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 50%;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+
+}
+
+.blockF {
+    display: grid;
+}
+
+.imggrid1 img {
+    height: 200px;
+    width: 400px;
+}
+
+.griditem {
+    display: flex;
+}
+
+.textgrid {
+    font-size: 10px;
+    padding: 20px;
+}
+
+/* blockF */
+.blockG {
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.blockG img{
+    height: 200px;
+    width: 400px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+/* blockHitem */
+.blockHitem {
+    text-align: center;
+    background-color: gainsboro;
+    height: 30vw;
+    margin-top: 20px;
+
+}
+.blockHitem h1 {
+font-size: 60px;
+font-weight:500 ;
+
+}
+.blockHitem li{
+    list-style: none;
+}
+.blockHitem a{
+   color: black;
+   text-decoration: none;
+
+}
+.blockHitem a:hover{
+   color: red;
+    
+ }
+ #textMR{
+    margin-left: 20px;
+ }
+
+ .blockI{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: rgb(99, 99, 99);
+ }
+ .blockIitem83 li{
+    list-style: none;
+ }
+ #iconflex{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+ }
+/* blockJ */
+.blockJ{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 30px;
+}
